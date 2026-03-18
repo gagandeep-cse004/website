@@ -1770,7 +1770,391 @@
                 font-size: 3rem;
             }
         }
+
+        /* New responsive breakpoint */
+        @media (max-width: 576px) {
+            .welcome-skip-btn {
+                top: 15px;
+                right: 15px;
+                padding: 10px 20px;
+                font-size: 0.85rem;
+            }
+
+            .slide-title {
+                font-size: 2rem;
+            }
+
+            .slide-subtitle {
+                font-size: 1rem;
+            }
+
+            .slide-icon {
+                font-size: 3rem;
+            }
+
+            .slide-features {
+                gap: 10px;
+            }
+
+            .feature-item {
+                padding: 10px 16px;
+                font-size: 0.9rem;
+                width: 100%;
+            }
+        }
+
+
+        /* ===== MOBILE RESPONSIVE IMPROVEMENTS FOR WELCOME SLIDER ===== */
+
+        @media (max-width: 992px) {
+            .slide-content {
+                padding: 30px 20px;
+            }
+
+            .slide-title {
+                font-size: 2.2rem;
+                margin-bottom: 20px;
+            }
+
+            .slide-subtitle {
+                font-size: 1.05rem;
+                margin-bottom: 25px;
+            }
+
+            .slide-icon {
+                font-size: 4rem;
+                margin-bottom: 25px;
+            }
+
+            .slide-features {
+                gap: 12px;
+                margin-top: 25px;
+            }
+
+            .feature-item {
+                padding: 10px 18px;
+                font-size: 0.9rem;
+            }
+
+            .welcome-skip-btn {
+                padding: 10px 24px;
+                font-size: 0.9rem;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .welcome-section {
+                overflow-x: hidden;
+            }
+
+            .swiper-slide {
+                height: 100vh;
+                width: 100vw;
+                padding: 0 15px;
+            }
+
+            .slide-content {
+                padding: 20px 15px;
+                max-width: 100%;
+                width: 100%;
+            }
+
+            .slide-title {
+                font-size: 1.9rem;
+                margin-bottom: 16px;
+                line-height: 1.2;
+            }
+
+            .slide-subtitle {
+                font-size: 1rem;
+                margin-bottom: 20px;
+                padding: 0 10px;
+            }
+
+            .slide-icon {
+                font-size: 3.5rem;
+                margin-bottom: 20px;
+            }
+
+            .slide-icon img {
+                width: 100px;
+                height: 100px;
+            }
+
+            .slide-features {
+                flex-direction: column;
+                gap: 10px;
+                margin-top: 20px;
+                width: 100%;
+                max-width: 350px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .feature-item {
+                width: 100%;
+                justify-content: center;
+                padding: 12px 20px;
+                font-size: 0.9rem;
+            }
+
+            .feature-item i {
+                font-size: 1.1rem;
+            }
+
+            /* Navigation buttons adjustment for mobile */
+            .swiper-button-next,
+            .swiper-button-prev {
+                width: 40px;
+                height: 40px;
+            }
+
+            .swiper-button-next::after,
+            .swiper-button-prev::after {
+                font-size: 1rem;
+            }
+
+            .swiper-button-prev {
+                left: 10px;
+            }
+
+            .swiper-button-next {
+                right: 10px;
+            }
+
+            .swiper-pagination {
+                bottom: 20px !important;
+            }
+
+            .swiper-pagination-bullet {
+                width: 10px !important;
+                height: 10px !important;
+            }
+
+            .swiper-pagination-bullet-active {
+                width: 25px !important;
+            }
+
+            /* Decorations adjustments */
+            .decoration-1,
+            .decoration-2 {
+                display: none;
+            }
+
+            /* Skip button */
+            .welcome-skip-btn {
+                top: 15px;
+                right: 15px;
+                padding: 10px 20px;
+                font-size: 0.85rem;
+            }
+
+            /* Link buttons in slides */
+            .slide-content a {
+                padding: 12px 24px !important;
+                font-size: 0.95rem !important;
+                margin-top: 20px !important;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .slide-content {
+                padding: 15px 10px;
+            }
+
+            .slide-title {
+                font-size: 1.6rem;
+                margin-bottom: 14px;
+            }
+
+            .slide-subtitle {
+                font-size: 0.95rem;
+                margin-bottom: 18px;
+                padding: 0 5px;
+                line-height: 1.6;
+            }
+
+            .slide-icon {
+                font-size: 3rem;
+                margin-bottom: 18px;
+            }
+
+            .slide-icon img {
+                width: 85px;
+                height: 85px;
+            }
+
+            .slide-features {
+                gap: 8px;
+                margin-top: 18px;
+                max-width: 100%;
+                padding: 0 10px;
+            }
+
+            .feature-item {
+                padding: 10px 16px;
+                font-size: 0.85rem;
+            }
+
+            .feature-item i {
+                font-size: 1rem;
+            }
+
+            /* Make navigation arrows smaller on very small screens */
+            .swiper-button-next,
+            .swiper-button-prev {
+                width: 35px;
+                height: 35px;
+            }
+
+            .swiper-button-next::after,
+            .swiper-button-prev::after {
+                font-size: 0.9rem;
+            }
+
+            .swiper-button-prev {
+                left: 5px;
+            }
+
+            .swiper-button-next {
+                right: 5px;
+            }
+
+            .swiper-pagination {
+                bottom: 15px !important;
+            }
+
+            .swiper-pagination-bullet {
+                width: 8px !important;
+                height: 8px !important;
+                margin: 0 3px !important;
+            }
+
+            .swiper-pagination-bullet-active {
+                width: 20px !important;
+            }
+
+            .welcome-skip-btn {
+                top: 10px;
+                right: 10px;
+                padding: 8px 16px;
+                font-size: 0.8rem;
+            }
+
+            /* Slide link buttons */
+            .slide-content a {
+                padding: 10px 20px !important;
+                font-size: 0.9rem !important;
+                margin-top: 15px !important;
+                white-space: nowrap;
+            }
+
+            .slide-content a i {
+                font-size: 0.85rem;
+            }
+        }
+
+        @media (max-width: 400px) {
+            .slide-title {
+                font-size: 1.4rem;
+            }
+
+            .slide-subtitle {
+                font-size: 0.9rem;
+            }
+
+            .slide-icon {
+                font-size: 2.5rem;
+            }
+
+            .slide-icon img {
+                width: 75px;
+                height: 75px;
+            }
+
+            .feature-item {
+                padding: 8px 14px;
+                font-size: 0.8rem;
+            }
+
+            .slide-content a {
+                padding: 9px 18px !important;
+                font-size: 0.85rem !important;
+            }
+
+            .welcome-skip-btn {
+                padding: 7px 14px;
+                font-size: 0.75rem;
+            }
+        }
+
+        /* Fix for landscape orientation on mobile */
+        @media (max-height: 600px) and (orientation: landscape) {
+            .slide-content {
+                padding: 15px 20px;
+            }
+
+            .slide-icon {
+                font-size: 2.5rem;
+                margin-bottom: 10px;
+            }
+
+            .slide-icon img {
+                width: 70px;
+                height: 70px;
+            }
+
+            .slide-title {
+                font-size: 1.5rem;
+                margin-bottom: 10px;
+            }
+
+            .slide-subtitle {
+                font-size: 0.9rem;
+                margin-bottom: 12px;
+            }
+
+            .slide-features {
+                margin-top: 12px;
+                gap: 8px;
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+
+            .feature-item {
+                padding: 6px 12px;
+                font-size: 0.75rem;
+            }
+
+            .swiper-pagination {
+                bottom: 10px !important;
+            }
+
+            .welcome-skip-btn {
+                top: 8px;
+                right: 8px;
+                padding: 6px 12px;
+                font-size: 0.75rem;
+            }
+
+            .slide-content a {
+                padding: 8px 16px !important;
+                font-size: 0.85rem !important;
+                margin-top: 10px !important;
+            }
+        }
+
+        /* Prevent horizontal scroll */
+        .welcome-section,
+        .welcome-container,
+        .swiper,
+        .swiper-wrapper {
+            max-width: 100vw;
+            overflow-x: hidden;
+        }
     </style>
+
+
 </head>
 
 <body>
@@ -1783,7 +2167,7 @@
         <div class="welcome-container">
             <div class="swiper welcomeSwiper">
                 <div class="swiper-wrapper">
-                    <!-- Slide 1 -->
+
                     <div class="swiper-slide slide-1">
                         <div class="slide-decoration decoration-1"></div>
                         <div class="slide-decoration decoration-2"></div>
@@ -1813,7 +2197,7 @@
                         </div>
                     </div>
 
-                    <!-- Slide 2 -->
+
                     <div class="swiper-slide slide-2">
                         <div class="slide-decoration decoration-1"></div>
                         <div class="slide-decoration decoration-2"></div>
@@ -1867,8 +2251,8 @@
                         </div>
                     </div>
 
-                    
-                    <!-- Slide 3 -->
+
+
                     <div class="swiper-slide slide-3">
                         <div class="slide-decoration decoration-1"></div>
                         <div class="slide-decoration decoration-2"></div>
@@ -1903,7 +2287,7 @@
                         </div>
                     </div>
 
-                    <!-- Slide 4 -->
+
                     <div class="swiper-slide slide-4">
                         <div class="slide-decoration decoration-1"></div>
                         <div class="slide-decoration decoration-2"></div>
@@ -1939,10 +2323,10 @@
                     </div>
                 </div>
 
-                <!-- Pagination -->
+
                 <div class="swiper-pagination"></div>
 
-                <!-- Navigation -->
+
                 <div class="swiper-button-next"></div>
                 <div class="swiper-button-prev"></div>
             </div>
@@ -2589,11 +2973,13 @@
                         guidance and academic support across all disciplines.
                     </p>
                     <div class="social-links">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <!-- <a href="#"><i class="fab fa-facebook-f"></i></a> -->
+                        <!-- <a href="#"><i class="fab fa-twitter"></i></a> -->
+                        <a href="https://www.linkedin.com/company/institute-for-applied-research-and-training/"><i
+                                class="fab fa-linkedin-in"></i></a>
+                        <a href="https://www.instagram.com/edu.iart?igsh=MTd3bndvaXIyZDVqMw=="><i
+                                class="fab fa-instagram"></i></a>
+                        <!-- <a href="#"><i class="fab fa-youtube"></i></a> -->
                     </div>
                 </div>
 
